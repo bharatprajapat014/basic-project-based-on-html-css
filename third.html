@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRAJ GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Lobster&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+            font-family: 'Kanit', sans-serif;
+        }
+        
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 2px;
+            color: aliceblue;
+        }
+        
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 29px auto;
+            color: rgb(0, 0, 0);
+        }
+        
+        .right {
+            color: aliceblue;
+            position: absolute;
+            right: 34px;
+            top: 2px;
+            display: inline-block;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+        }
+        
+        .navbar li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 3px;
+            margin: 2px;
+        }
+        
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: rgb(180, 171, 158);
+            background-color: black;
+        }
+        
+        .left img {
+            width: 150px;
+            filter: invert(100%);
+        }
+        
+        .btn {
+            margin: 21px 9px;
+            background-color: black;
+            color: white;
+            padding: 7px 9px;
+            border: 2px solid black;
+            border-radius: 22px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: rgb(196, 136, 68);
+        }
+        
+        .container {
+            border: 2px solid black;
+            margin: 90px 40px;
+            padding: 30px 2px;
+            width: 30%;
+            border-radius: 25px;
+        }
+        
+        .container h2 {
+            text-align: center;
+            color: aliceblue;
+        }
+        
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 130px;
+            padding: 6px;
+            border: 2px solid black;
+            margin: 3px auto;
+            border-radius: 10px;
+        }
+        
+        .container button {
+            display: block;
+            width: 20%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- <img src="logo-no-background.png"> -->
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+        <div class="container">
+            <h2>Visit us & fill your details in form to get 50% off offer in ice-cream</h2>
+            <from action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Sir name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your mo. number">
+                </div>
+            </from>
+            <button class="btn">Submit</button>
+        </div>
+
+    </header>
+</body>
+
+</html>
